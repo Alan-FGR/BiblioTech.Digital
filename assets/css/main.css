@@ -1224,7 +1224,7 @@ p {
 
 /* ====== feature-extended css ====== */
 .feature-extended-section .feature-extended-wrapper {
-  padding: 70px 0;
+  padding: 90px 0;
   background: rgb(231 233 255 / 87%);
 }
 
@@ -1383,8 +1383,9 @@ p {
 
 @media (max-width: 767px) {
   .footer {
-    padding-top: 120px;
-    background: #5864FF;
+    padding-top: 100px;
+    background: #2e3dff4d;
+    padding-bottom: 50px;
   }
 }
 
