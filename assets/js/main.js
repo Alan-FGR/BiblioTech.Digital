@@ -1,14 +1,8 @@
 (function () {
-  //===== Prealoder
 
   window.onload = function () {
-    window.setTimeout(fadeout, 500);
+    //document.getElementById("current_year").innerText = new Date().getFullYear()+",";
   };
-
-  function fadeout() {
-    document.querySelector(".preloader").style.opacity = "0";
-    document.querySelector(".preloader").style.display = "none";
-  }
 
   /*=====================================
     Sticky
@@ -33,8 +27,10 @@
       document.documentElement.scrollTop > 50
     ) {
       backToTo.style.display = "flex";
+      backToTo.style.opacity = "1";
     } else {
-      backToTo.style.display = "none";
+      backToTo.style.display = "flex";
+      backToTo.style.opacity = "0";
     }
   };
 
